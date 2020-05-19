@@ -1,5 +1,5 @@
 //Make connection with SOCKET IO
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('http://localhost');
 //Query DOM
 var msg = document.getElementById('message-box'),
     send = document.getElementById('send'),
