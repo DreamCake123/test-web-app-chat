@@ -1,5 +1,5 @@
 //Make connection with SOCKET IO
-var socket = io.connect('https://dreamcake-test-app.herokuapp.com/');
+var socket = io.connect();
 //Query DOM
 var msg = document.getElementById('message-box'),
     send = document.getElementById('send'),
