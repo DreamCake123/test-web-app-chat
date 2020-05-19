@@ -5,7 +5,7 @@ const socket = require('socket.io');
 
 const app = express();
 const server = app.listen(process.env.PORT, () => console.log("Server is on HEROKUUUUUU"));
-var io = socket.connect(server);
+var io = socket(server);
 
 //Express 
 app.use(express.static('public'));
