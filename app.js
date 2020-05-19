@@ -4,8 +4,8 @@ const socket = require('socket.io');
 //Initialization
 
 const app = express();
-const server = app.listen(process.env.PORT, () => console.log("Server is on port 3000"));
-var io = socket(server);
+const server = app.listen(process.env.PORT, () => console.log("Server is on HEROKUUUUUU"));
+var io = socket.connect(server);
 
 //Express 
 app.use(express.static('public'));
